@@ -6,6 +6,7 @@
 #'
 #' @examples
 #' plotSpruce()
+#' @export
 plotSpruce <- function(filename) {
   spruce.df = read.csv(filename)
 
