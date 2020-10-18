@@ -13,7 +13,7 @@
 #' @export
 #'
 #' @examples
-mycltu=function(n,iter,a=0,b=10){
+packagecltu=function(n,iter,a=0,b=10){
   ## r-random sample from the uniform
   y=runif(n*iter,a,b)
   ## Place these numbers into a matrix
