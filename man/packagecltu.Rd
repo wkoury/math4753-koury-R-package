@@ -7,7 +7,13 @@
 packagecltu(n, iter, a = 0, b = 10)
 }
 \arguments{
-\item{b}{}
+\item{n}{Number n of each sample}
+
+\item{iter}{The number of iterations}
+
+\item{a}{Lower bound of the uniform distribution}
+
+\item{b}{Upper bound of the uniform distribution}
 }
 \value{
 
