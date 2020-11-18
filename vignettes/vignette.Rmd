@@ -1,0 +1,36 @@
+---
+title: "My Vignette"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+```{r setup}
+library(math4753kouryRpackage)
+```
+
+# Run some of the functions in the package
+```{r}
+math4753kouryRpackage::packagecltu(n=25,iter=10000)
+```
+
+```{r}
+math4753kouryRpackage::mymult()
+```
+
+```{r}
+math4753kouryRpackage::myncurve(mu=0,sigma=1,a=1.7)
+```
+
+```{r}
+math4753kouryRpackage::myboot(x=(1:9999),fun="median")
+```

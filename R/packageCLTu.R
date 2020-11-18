@@ -4,10 +4,10 @@
 ## Notice that I have assigned default values which can be changed when the function is called
 #' Title
 #'
-#' @param n
-#' @param iter
-#' @param a
-#' @param b
+#' @param n Number n of each sample
+#' @param iter The number of iterations
+#' @param a Lower bound of the uniform distribution
+#' @param b Upper bound of the uniform distribution
 #'
 #' @return
 #' @export
